@@ -1,14 +1,14 @@
 #!/bin/bash
-##########################################################
-# Script to harden Nutanix controller VMs in a cluster.  #
-# Run this on any CVM in the cluster.                    #
-#                                                        #
-# Current hardening:                                     #
-# 	- Run built-in DoD script                            #
-# 	- Set password expiration for root and nutanix accts #
-#                                                        #
-# author: @patricksanders                                #
-##########################################################
+####################################################################
+# Script to harden Nutanix controller VMs in a cluster.            #
+# Run this on any CVM in the cluster.                              #
+#                                                                  #
+# Current hardening:                                               #
+#   - Run built-in DoD script                                      #
+#   - Set password expiration for root and nutanix accts           #
+#                                                                  #
+# author: @patricksanders                                          #
+####################################################################
 
 PASS_TIMEOUT=365
 
